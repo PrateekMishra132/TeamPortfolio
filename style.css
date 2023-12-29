@@ -1,0 +1,33 @@
+.seperator{
+    width: 100%;
+    height: .5rem;
+    background-color: rgba(255, 213, 0, 0.731);
+}
+
+.slidein1{
+    animation:slideme 0.7s ease-in
+}
+.slidein2{
+    animation:slideme 0.9s ease-in
+}
+.slidein3{
+    animation:slideme 1.1s ease-in
+}
+.slidein4{
+    animation:slideme 1.3s ease-in
+}
+.slidein5{
+    animation:slideme 1.5s ease-in
+}
+.slidein6{
+    animation:slideme 1.7s ease-in
+}
+
+@keyframes slideme{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
